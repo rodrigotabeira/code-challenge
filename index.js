@@ -1,7 +1,6 @@
-document
-.getElementById('registroForm')
-.addEventListener('submit', function (e) {
-    e.preventDefault();
+document.addEventListener('DOMContentLoaded', function() {
+document.getElementById('registroForm').addEventListener('submit', function(form) {
+    form.preventDefault();
     
     // Tomar datos del formulario
     const dataForm = {
@@ -27,3 +26,4 @@ document
     });
 
 });
+})
