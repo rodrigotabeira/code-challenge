@@ -1,5 +1,7 @@
-document.getElementById("FormRegistro").addEventListener("submit", function (f) {
-    f.preventDefault();
+document
+.getElementById('registroForm')
+.addEventListener('submit', function (e) {
+    e.preventDefault();
     
     // Tomar datos del formulario
     const dataForm = {
